@@ -1,0 +1,205 @@
+.nav{
+    margin: 0 auto;
+    width: 1280px;
+    top: 0;
+    position: relative;
+    z-index: 111;
+}
+
+.img{
+    position:absolute; 
+    top:2px;
+    left: 110px;
+}
+
+.bsignin{
+    position: absolute; 
+    top:120px;
+    left:30px;
+    background-color: #5082b9; 
+    border: none;
+    border-radius: 4px;
+    height: 35px; 
+    width: 100px; 
+    color: white;
+}
+
+.bsignin:hover{
+    background-color: #658fbd;
+}
+
+.bsignin:active{
+    padding-top: 2px;
+}
+
+input[type="text"] {
+    border: 1px solid #e6e3e3; 
+    border-radius: 10px; 
+    background: #edeef0 !important; 
+    outline: none; 
+    padding-left: 10px;
+    padding-right: 90px;
+    height: 25px; 
+    width: 120px; 
+    color: #000000;
+    font-size: 14px; 
+    font-family: Arial; 
+    margin-left: 300px;
+    margin-bottom: 5px; 
+    margin-right: 500px; 
+    position: absolute;
+ }
+
+ .container{
+    margin: 0 auto;
+    background: #edeef0;
+    padding-top: 800px;
+    top: 40px;
+    position: relative;  
+    width: 1280px;
+    
+ }
+
+.loginblock {
+    position: absolute;
+    top: 29px;
+    left: 800px;
+    padding-left: 310px;
+    padding-bottom: 190px;
+    border:thin 1px #edeef0 ;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.signupblock{
+    position: absolute;
+    top: 240px;
+    left: 800px;
+    padding-left: 310px;
+    padding-bottom: 410px;
+    border:thin 1px #edeef0 ;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.android{
+    position:absolute;
+    top: 550px;
+    left: 300px;
+}
+
+.andrclick{
+    position: absolute;
+    left: 40px; 
+    top: 19px; 
+    font-size: 13px; 
+    font-family: arial; 
+    color:rgb(64, 84, 121); 
+    text-decoration: none;
+}
+
+.andrclick:hover{
+    text-decoration: underline;
+}
+
+.obvodka{
+    position:absolute;
+   background-color: #b1b1b17a;  
+   padding:7px 125px 20px 20px;
+   top: 562px;
+   left: 305px;
+   border-radius: 4px;
+   opacity: .0;
+   z-index: 999;
+}
+
+.obvodka:hover{
+    transition-delay: 0.1s;
+    opacity: .4;
+}
+
+.obvodka2{
+    position:absolute;
+   background-color: #b1b1b17a;  
+   padding:7px 125px 20px 10px;
+   top: 562px;
+   left:510px;
+   border-radius: 4px;
+   opacity: .0;
+   z-index: 1000; 
+}
+
+.obvodka2:hover{
+    transition-delay: 0.1s;
+    opacity: .4;
+}
+
+.ios{
+    position:absolute;
+    top: 550px;
+    left: 300px;
+    width: 320px;
+}
+
+.iosclick{
+    position: absolute;
+    left: 250px; 
+    top: 19px; 
+    font-size: 13px; 
+    font-family: arial; 
+    color:rgb(64, 84, 121); 
+    text-decoration: none;
+}
+
+.allprod{
+    position: absolute; top: 610px; left: 420px;
+    font-size: 14px; 
+    font-family: Tahoma; 
+    color:rgb(64, 84, 121); 
+    text-decoration: none;
+}
+
+.allprod:hover{
+    text-decoration: underline;
+}
+
+.prodregistr{
+    position: absolute; 
+    top: 300px; 
+    width: 260px; 
+    height: 35px; 
+    left: 30px; 
+    border: 1px; 
+    border-radius: 3px; 
+    background-color: #4ab44a; 
+    color: white;
+    z-index: 10;
+}
+
+.prodregistr:hover{
+    background-color:#5ac95a;
+}
+
+.prodregistr:active{
+    padding-top: 3px;
+}
+
+.facebook{
+    position: absolute; 
+    top: 345px; 
+    width: 260px; 
+    height: 35px;           
+    left: 30px; 
+    border: 1px; 
+    border-radius: 3px; 
+    background-color: #146dd2; 
+    color: white;
+}
+
+.facebook:hover{
+    background-color:#2f7fda ;
+}
+
+.facebook:active{
+    padding-top: 3px;
+}
